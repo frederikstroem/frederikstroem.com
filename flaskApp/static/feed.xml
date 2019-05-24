@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Journal - Frederik Holm Strøm</title>
+	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
+	<link href="https://frederikstroem.com/" />
+  <id>https://frederikstroem.com/static/feed.xml</id>
+	<updated>2019-05-23T11:23:35Z</updated>
+
+	<entry>
+		<title>Test</title>
+		<link href="https://frederikstroem.com/journal/test/" />
+		<id>https://frederikstroem.com/journal/test/</id>
+		<published>2019-05-23T21:45:35Z</published>
+		<updated>2019-05-23T21:45:42Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci sagittis, sollicitudin neque non, gravida lacus. Suspendisse massa est, fermentum sed orci vitae, posuere pulvinar metus. Donec sed pharetra orci, at tincidunt enim. Mauris in quam sit amet justo aliquet tempus in vitae ligula. In posuere nunc et dolor mattis sagittis. Donec sodales pellentesque risus, ac maximus neque. Ut id porta enim. Suspendisse fermentum arcu vitae ante venenatis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ut quam egestas odio iaculis rutrum.</summary>
+		<content type="html">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut orci sagittis, sollicitudin neque non, gravida lacus. Suspendisse massa est, fermentum sed orci vitae, posuere pulvinar metus. Donec sed pharetra orci, at tincidunt enim. Mauris in quam sit amet justo aliquet tempus in vitae ligula. In posuere nunc et dolor mattis sagittis. Donec sodales pellentesque risus, ac maximus neque. Ut id porta enim. Suspendisse fermentum arcu vitae ante venenatis iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur ut quam egestas odio iaculis rutrum.</p>
+			<p>Suspendisse sit amet eleifend erat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque posuere quam accumsan, venenatis augue ut, scelerisque eros. Proin non tempor felis. Fusce mollis, purus et blandit luctus, lorem risus finibus ligula, in consectetur metus orci a nibh. Nam sit amet ipsum eu libero lacinia fermentum. Nunc elementum vestibulum justo et ornare. Aenean sit amet elit ac nulla fermentum lobortis at sed urna. Nullam accumsan nulla aliquam ullamcorper fermentum. Vestibulum aliquam venenatis tellus eget lobortis. Vivamus auctor dignissim nisl ut dignissim. Integer facilisis ut elit ut viverra. Aliquam a elit imperdiet, hendrerit nulla ut, vestibulum ante. Praesent fermentum libero sit amet justo congue interdum. Praesent nec risus congue, gravida ante et, sagittis dui.</p>
+			<p>Praesent augue ipsum, pretium laoreet sodales sit amet, sollicitudin eu est. Quisque ut euismod neque. Nam porttitor odio enim, at tempus dui porta eu. Fusce in vulputate velit. Phasellus orci urna, consectetur id lacus a, gravida vestibulum ante. Fusce a nibh sit amet quam varius fringilla aliquam ut tellus. Integer bibendum diam et tortor bibendum, a fermentum quam tempus. Nulla finibus malesuada lectus quis semper.</p>
+		</content>
+	</entry>
+
+	<entry>
+		<title>I Use A New Public Key</title>
+		<link href="https://frederikstroem.com/journal/i-use-a-new-public-key/" />
+		<id>https://frederikstroem.com/journal/i-use-a-new-public-key/</id>
+		<published>2019-03-28T23:02:44Z</published>
+		<updated>2019-03-28T23:02:44Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>I use a new public key now F5EC 5C7E 6B85 3EE5 B451  2997 2C15 3894 F071 247B with the ProtonMail e-mail frederikstroem@pm.me.</summary>
+		<content type="html">
+			<p>I use a new public key now<br /> F5EC 5C7E 6B85 3EE5 B451  2997 2C15 3894 F071 247B<br /> With the ProtonMail e-mail<br /> frederikstroem@pm.me</p>
+			<p>You can download this message signed both with my old key and my new key here<br />
+			<a href="https://frederikstroem.com/download/archives/2019-03-28-new-pgp-key.txt.asc" target="_blank">2019-03-28-new-pgp-key.txt.asc</a></p>
+		</content>
+	</entry>
+
+	<entry>
+		<title>SRP - Exoplaneter (Matematik og Fysik)</title>
+		<link href="https://frederikstroem.com/journal/srp-exoplaneter-matematik-og-fysik/" />
+		<id>https://frederikstroem.com/journal/srp-exoplaneter-matematik-og-fysik/</id>
+		<published>2019-03-04T21:15:57Z</published>
+		<updated>2019-03-04T21:15:57Z</updated>
+		<author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Jeg deler min Matematik A og Fysik A SRP om exoplaneter. Jeg håber den kan være til lidt inspiration.</summary>
+		<content type="html">
+			<p>Jeg deler min Matematik A og Fysik A SRP om exoplaneter. Jeg håber den kan være til lidt inspiration.</p>
+			<h1>Download</h1>
+			<p><a href="https://frederikstroem.com/download/danish/srp-exoplaneter-matematik-og-fysik/Exoplaneter_SRP_Besvarelse_Matematik_og_Fysik.pdf" target="_blank">Exoplaneter_SRP_Besvarelse_Matematik_og_Fysik.pdf</a><br />
+			<a href="https://frederikstroem.com/download/danish/srp-exoplaneter-matematik-og-fysik/SHA512SUMS" target="_blank">SHA512SUMS</a><br />
+			<a href="https://frederikstroem.com/download/danish/srp-exoplaneter-matematik-og-fysik/SHA512SUMS.asc" target="_blank">SHA512SUMS.asc</a></p>
+			<p>Downloadside: <a href="https://frederikstroem.com/download/danish/srp-exoplaneter-matematik-og-fysik/" target="_blank">https://frederikstroem.com/download/danish/srp-exoplaneter-matematik-og-fysik/</a></p>
+		</content>
+	</entry>
+
+	<entry>
+		<title>Spilprojekt - Programmering B Rapport</title>
+		<link href="https://frederikstroem.com/journal/spilprojekt-programmering-b-rapport/" />
+		<id>https://frederikstroem.com/journal/spilprojekt-programmering-b-rapport/</id>
+		<published>2019-02-11T15:54:56Z</published>
+		<updated>2019-02-11T15:54:56Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Jeg deler min Programmering B rapport fra et spilprojektforløb. Jeg håber min besvarelse kan give lidt inspiration.</summary>
+		<content type="html">
+			<p>Jeg deler min Programmering B rapport fra et spilprojektforløb. Jeg håber min besvarelse kan give lidt inspiration.</p>
+			<h1>Download</h1>
+			<p><a href="https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/Rapport.pdf" target="_blank">Rapport.pdf</a><br />
+			<a href="https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/new-direction-0.0.1.zip" target="_blank">new-direction-0.0.1.zip</a><br />
+			<a href="https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/SHA512SUMS" target="_blank">SHA512SUMS</a><br />
+			<a href="https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/SHA512SUMS.asc" target="_blank">SHA512SUMS.asc</a></p>
+			<p>Downloadside: <a href="https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/" target="_blank">https://frederikstroem.com/download/danish/spilprojekt-programmering-b-rapport/</a></p>
+		</content>
+	</entry>
+
+	<entry>
+		<title>JS Ninja - Eksamensprojekt Programmering C</title>
+		<link href="https://frederikstroem.com/journal/js-ninja-eksamensprojekt-programmering-c/" />
+		<id>https://frederikstroem.com/journal/js-ninja-eksamensprojekt-programmering-c/</id>
+		<published>2019-01-13T16:23:27Z</published>
+		<updated>2019-01-13T16:23:27Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Jeg deler mit Programmering C eksamensprojekt i håb om at der måske er nogle der kan få lidt gavn og inspiration fra det.</summary>
+		<content type="html">
+			<p>Jeg deler mit Programmering C eksamensprojekt i håb om at der måske er nogle der kan få lidt gavn og inspiration fra det.</p>
+			<h1>Download</h1>
+			<p><a href="https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/Rapport.pdf" target="_blank">Rapport.pdf</a><br />
+			<a href="https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/js-ninja-1.2.2.zip" target="_blank">js-ninja-1.2.2.zip</a><br />
+			<a href="https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/SHA512SUMS" target="_blank">SHA512SUMS</a><br />
+			<a href="https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/SHA512SUMS.asc" target="_blank">SHA512SUMS.asc</a></p>
+			<p>Downloadside: <a href="https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/" target="_blank">https://frederikstroem.com/download/danish/js-ninja-eksamensprojekt-programmering-c/</a></p>
+		</content>
+	</entry>
+
+	<entry>
+		<title>Hmmm</title>
+		<link href="https://frederikstroem.com/journal/hmmm/" />
+		<id>https://frederikstroem.com/journal/hmmm/</id>
+		<published>2019-01-11T18:05:05Z</published>
+		<updated>2019-01-11T18:05:05Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Hmmm</summary>
+		<content type="html">
+			<p><i>Such empty…</i></p>
+		</content>
+	</entry>
+
+</feed>

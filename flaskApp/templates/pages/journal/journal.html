@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Journal - {{ super() }}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/journal/journal.min.css') }}">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  Journal
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <div id="latestPostsContainer">
+    {% for post in latestPosts %}
+      <a href="{{ post.link }}">
+        <h1 class="is-size-3">{{ post.title }}</h1>
+        <p class="summary">{{ post.summary|safe }}</p>
+        {% if post.published == post.updated %}
+          <p class="published"><span title="Published {{ post.published }}">{{ post.published }}</span></p>
+        {% else %}
+          <p class="published is-size-6"><span title="Published {{ post.published }}">{{ post.published }}</span> <span title="Updated {{ post.updated }}">({{ post.updated }})</span></p>
+        {% endif %}
+      </a>
+    {% endfor %}
+  </div>
+
+  <nav class="pagination is-centered">
+
+    {% if paginationOverview.isFirstPage %}
+      <a class="pagination-previous" disabled>Previous</a>
+    {% else %}
+      <a class="pagination-previous" href="{{ url_for('journal') }}{{ paginationOverview.previousPage }}">Previous</a>
+    {% endif %}
+
+    {% if paginationOverview.isLastPage %}
+      <a class="pagination-next" disabled>Next page</a>
+    {% else %}
+      <a class="pagination-next" href="{{ url_for('journal') }}{{ paginationOverview.nextPage }}">Next page</a>
+    {% endif %}
+
+    <ul class="pagination-list">
+      {% if not paginationOverview.isFirstPage %}
+        <li><a class="pagination-link" href="{{ url_for('journal') }}{{ paginationOverview.firstPage }}">{{ paginationOverview.firstPage }}</a></li>
+      {% endif %}
+
+      {% if not (paginationOverview.isPreviousPageFirst or paginationOverview.isFirstPage) %}
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+
+        <li><a class="pagination-link" href="{{ url_for('journal') }}{{ paginationOverview.previousPage }}">{{ paginationOverview.previousPage }}</a></li>
+      {% endif %}
+
+      <li><a class="pagination-link is-current" href="{{ url_for('journal') }}{{ paginationOverview.currentPage }}">{{ paginationOverview.currentPage }}</a></li>
+
+      {% if not (paginationOverview.isNextPageLast or paginationOverview.isLastPage) %}
+        <li><a class="pagination-link" href="{{ url_for('journal') }}{{ paginationOverview.nextPage }}">{{ paginationOverview.nextPage }}</a></li>
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+      {% endif %}
+
+      {% if not paginationOverview.isLastPage %}
+        <li><a class="pagination-link" href="{{ url_for('journal') }}{{ paginationOverview.lastPage }}">{{ paginationOverview.lastPage }}</a></li>
+      {% endif %}
+
+    </ul>
+
+  </nav>
+{% endblock %}

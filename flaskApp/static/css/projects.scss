@@ -1,0 +1,25 @@
+@import "colors.scss";
+
+#mainColumn {
+  background-color: transparent !important;
+  margin-top: -10px;
+  >h1 {
+    margin-bottom: 10px;
+  }
+}
+
+#projects {
+  .column {
+    >div {
+      h1 {
+        margin-bottom: 5px;
+        color: $base06;
+      }
+      .buttons {
+        margin-top: 10px;
+      }
+      background-color: $base01 !important;
+      padding: 5px 10px 10px 10px;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+@import "colors.scss";
+
+* {
+  color: $base07;
+}
+
+html {
+  background-color: $base00;
+}
+
+a {
+  color: $base0D;
+}
+a:hover {
+  color: $base0C;
+}
+
+@media (min-width: 1088px) {
+  main {
+    padding-top: 60px;
+  }
+}
+
+header {
+  @media (max-width: 1087px) {
+    margin-bottom: 12px;
+  }
+  .is-tagline {
+    a {
+      color: $base07;
+    }
+    a:hover {
+      color: $base06;
+    }
+  }
+}
+
+footer {
+  margin: 60px 0;
+  @media (max-width: 768px) {
+    margin: 15px 0px 60px 0px;
+  }
+
+  @media (max-width: 1087px) {
+    padding-left: 15px;
+    right-left: 15px;
+  }
+
+  p, .footerLinks a {
+    color: $base06;
+  }
+
+  .footerLinks {
+    a {
+      display: block;
+    }
+    a:hover {
+      color: $base0C;
+    }
+  }
+
+}
+
+.base05 {
+  color: $base05;
+}
+
+.base08 {
+  color: $base08;
+}
+
+.is-divider {
+  margin: 20px 0;
+}
+
+#mainColumn {
+  background-color: $base01;
+  @media (max-width: 1087px) {
+    padding-left: 25px;
+  }
+  @media (max-width: 768px) {
+    padding-right: 25px;
+  }
+}
+
+#rightColumn {
+  @media (max-width: 1087px) {
+    margin-right: 10px;
+  }
+
+  @media (max-width: 769px) {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1087px) {
+  #navMenu {
+    background-color: inherit;
+    a {
+      color: $base07;
+    }
+    a:hover {
+      color: $base0C;
+    }
+  }
+}
+
+#socialLinks {
+  a:hover {
+    * {
+      color: $base0C;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@import "../colors.scss";
+
+.pagination {
+  margin-top: 25px;
+
+  a:not(.is-current) {
+    background-color: $base07 !important;
+  }
+  .pagination-ellipsis {
+    color: $base07 !important;
+  }
+}
+
+#mainColumn {
+  padding-bottom: 30px;
+}
+
+#latestPostsContainer {
+  h1 {
+    line-height: 1.25;
+  }
+
+  margin-top: 5px;
+  > a {
+    display: block;
+    color: $base07 !important;
+  }
+  > a:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .summary {
+
+  }
+  .published {
+    margin-top: 5px;
+    * {
+      color: $base05;
+      font-style: italic;
+    }
+  }
+}

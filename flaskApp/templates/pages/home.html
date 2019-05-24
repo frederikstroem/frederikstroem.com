@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.min.css') }}">
+{% endblock %}
+
+{% block mainColumn %}
+  <div class="columns">
+    <div class="column">
+      <p>Well, not much here... YET! <i>But do feel free to check out the other stuff on this website.</i></p>
+    </div>
+    <div class="column">
+      <h1 class="is-size-4">Latest journal posts</h1>
+      <div id="latestJournalPosts">
+        {% for post in latestPosts %}
+          <a href="{{ post.link }}">
+            <h1>{{ post.title }}</h1>
+            <p>{{ post.summary|safe }}</p>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Curriculum Vitae - {{ super() }}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/curriculum-vitae.min.css') }}">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  Curriculum Vitae
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <div class="columns is-desktop">
+    <div class="column">
+      <h1 class="is-size-4">Work</h1>
+      <div class="columns is-multiline is-mobile">
+        {% for entry in workList %}
+          <div class="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-one-third-mobile">
+            {{ entry.date }}
+          </div>
+          <div class="column is-three-quarters-fullhd is-three-quarters-widescreen is-two-thirds-desktop is-two-thirds-tablet is-two-thirds-mobile">
+            <b>{{ entry.name }}</b><br>
+            {{ entry.description }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="column">
+      <h1 class="is-size-4">Education</h1>
+      <div class="columns is-gapless is-multiline is-mobile">
+        {% for entry in educationList %}
+          <div class="column is-one-quarter-fullhd is-one-quarter-widescreen is-one-third-desktop is-one-third-tablet is-one-third-mobile">
+            {{ entry.date }}
+          </div>
+          <div class="column is-three-quarters-fullhd is-three-quarters-widescreen is-two-thirds-desktop is-two-thirds-tablet is-two-thirds-mobile">
+            <b>{{ entry.name }}</b><br>
+            {{ entry.description }}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endblock %}

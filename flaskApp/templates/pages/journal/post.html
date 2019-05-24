@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  {% if post != None %}
+    {{ post.title }} - Journal - {{ super() }}
+  {% else %}
+    404: Post not found - Journal - {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/journal/post.min.css') }}">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  {% if post != None %}
+    {{ post.title }}
+  {% endif %}
+{% endblock %}
+
+{% block mainColumn %}
+  {% if post != None %}
+    {{ super() }}
+    <div id="published">
+      {% if post.published == post.updated %}
+        Published: {{ post.published }}
+      {% else %}
+        Published: {{ post.published }} - Updated: {{ post.updated }}
+      {% endif %}
+    </div>
+    <div id="postContent">
+      {{ post.content|safe }}
+    </div>
+  {% else %}
+    404: Post not found.
+  {% endif %}
+{% endblock %}

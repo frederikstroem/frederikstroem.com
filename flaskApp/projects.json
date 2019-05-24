@@ -1,0 +1,32 @@
+[
+  {
+    "title": "JS Ninja",
+    "description": "A ninja browser game. The game is a two player game, played on just one computer!",
+    "projectLink": "https://frederikstroem.github.io/js-ninja/",
+    "projectSourceLink": "https://github.com/frederikstroem/js-ninja"
+  },
+  {
+    "title": "Date Picker",
+    "description": "A date picker to clipboard written in JavaScript, hosted on GitHub Pages.",
+    "projectLink": "https://frederikstroem.github.io/date-picker/",
+    "projectSourceLink": "https://github.com/frederikstroem/date-picker"
+  },
+  {
+    "title": "Time To Clipboard",
+    "description": "A Python command-line tool to copy the current time to the clipboard.",
+    "projectLink": "https://github.com/frederikstroem/time-to-clipboard/releases",
+    "projectSourceLink": "https://github.com/frederikstroem/time-to-clipboard"
+  },
+  {
+    "title": "New New Tab",
+    "description": "New New Tab replaces your browser new tab with a customizable widget based one.",
+    "projectLink": "",
+    "projectSourceLink": "https://github.com/frederikstroem/new-new-tab"
+  },
+  {
+    "title": "Factorio Blueprints",
+    "description": "Some Factorio blueprints for you to enjoy.",
+    "projectLink": "https://github.com/frederikstroem/factorio-blueprints/blob/master/README.md",
+    "projectSourceLink": "https://github.com/frederikstroem/factorio-blueprints"
+  }
+]

@@ -1,0 +1,45 @@
+body {
+  background: #000000;
+  font-family: "Courier New";
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: white;
+  background-color: #ff0000;
+}
+
+header {
+  font-size: 60px;
+}
+
+main, header {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#sitemapInfo {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -.7em;
+}
+
+li::before {
+  content: "-";
+  padding-right: 7px;
+  color: #ffffff;
+}

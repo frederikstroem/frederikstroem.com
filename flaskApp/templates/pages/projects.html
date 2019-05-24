@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Projects - {{ super() }}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/projects.min.css') }}">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  Projects
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <div id="projects" class="columns is-multiline">
+    {% for project in projectsList %}
+      <div class="column is-full-tablet is-half-desktop is-one-third-fullhd">
+        <div>
+          <h1 class="is-size-5">{{ project.title }}</h1>
+          <p>{{ project.description }}</p>
+          <div class="buttons">
+            {% if project.projectLink != "" %}
+              <a href="{{ project.projectLink }}" target="_blank" class="button is-primary">Go to project</a>
+            {% endif %}
+            {% if project.projectSourceLink != "" %}
+              <a href="{{ project.projectSourceLink }}" target="_blank" class="button is-small">View source code</a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
