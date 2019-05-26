@@ -8,6 +8,7 @@ journalHandler = Journal()
 
 debugMode = False
 
+# Force HTTPS. Source: https://stackoverflow.com/a/32238093 (2019-05-26)
 @app.before_request
 def before_request():
     if debugMode:
