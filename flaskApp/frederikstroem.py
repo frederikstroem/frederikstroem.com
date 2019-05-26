@@ -6,6 +6,18 @@ from journal import Journal
 app = Flask(__name__)
 journalHandler = Journal()
 
+debugMode = False
+
+@app.before_request
+def before_request():
+    if debugMode:
+        pass
+    else:
+        if request.url.startswith('http://'):
+            url = request.url.replace('http://', 'https://', 1)
+            code = 301
+            return redirect(url, code=code)
+
 @app.route("/")
 def home():
     latestPosts = journalHandler.getLatestPosts()[-2:]
@@ -48,4 +60,7 @@ def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
 if __name__ == "__main__":
-    app.run(debug=False)
+    if debugMode:
+        app.run(debug=True)
+    else:
+        app.run(debug=False)
