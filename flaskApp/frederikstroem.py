@@ -4,6 +4,7 @@ import json
 from journal import Journal
 
 app = Flask(__name__)
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 31536000
 journalHandler = Journal()
 
 debugMode = False
