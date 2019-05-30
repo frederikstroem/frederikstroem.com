@@ -22,7 +22,7 @@ def before_request():
 
 @app.route("/")
 def home():
-    latestPosts = journalHandler.getLatestPosts()[-2:]
+    latestPosts = journalHandler.getLatestPosts()[:2]
 
     return render_template('pages/home.html', latestPosts=latestPosts)
 
