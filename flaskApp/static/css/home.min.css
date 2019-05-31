@@ -1,1 +1,1 @@
-#latestJournalPosts h1{font-weight:bold}#latestJournalPosts a:first-child h1{margin-top:5px}#latestJournalPosts a:not(:first-child) h1{margin-top:10px}
+#latestJournalPosts h1{font-weight:bold}#latestJournalPosts a:first-child h1{margin-top:5px}#latestJournalPosts a:not(:first-child) h1{margin-top:10px}#mainColumn img{margin-top:10px !important}@media (min-width: 769px){#mainColumn img{padding-bottom:5px !important}}@media (max-width: 768px){#mainColumn .columns :first-child{padding-bottom:0px !important}}
