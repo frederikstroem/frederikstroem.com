@@ -8,7 +8,7 @@
 {% block mainColumn %}
   <div class="columns">
     <div class="column is-one-third-widescreen has-text-centered">
-      <img src="{{ url_for('static', filename='img/identicon.svg') }}" alt="">
+      <img id="homepagePicture" src="{{ url_for('static', filename='img/identicon.svg') }}" alt="">
     </div>
     <div class="column">
       <h1 class="is-size-4">Latest journal posts</h1>
@@ -22,4 +22,18 @@
       </div>
     </div>
   </div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script type="text/javascript">
+    window.onload = function () {
+      // Source: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript (2019-06-06).
+      var downloadingImage = new Image();
+      downloadingImage.onload = function(){
+        document.getElementById("homepagePicture").src = this.src;
+      };
+      downloadingImage.src = "{{ url_for('static', filename='img/hmmm.jpg') }}";
+    }
+  </script>
 {% endblock %}
