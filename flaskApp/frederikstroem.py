@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 31536000
 journalHandler = Journal()
 
-debugMode = True
+debugMode = False
 
 # Force HTTPS. Source: https://stackoverflow.com/a/32238093 (2019-05-26)
 @app.before_request
