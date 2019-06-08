@@ -6,7 +6,28 @@
 	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
 	<link href="https://frederikstroem.com/" />
   <id>https://frederikstroem.com/static/feed.xml</id>
-	<updated>2019-03-28T23:02:44Z</updated>
+	<updated>2019-06-08T18:07:06Z</updated>
+
+	<entry>
+		<title>Cooler made out of old PC fans</title>
+		<link href="https://frederikstroem.com/journal/cooler-made-out-of-old-pc-fans/" />
+		<id>https://frederikstroem.com/journal/cooler-made-out-of-old-pc-fans/</id>
+		<published>2019-06-08T18:07:06Z</published>
+		<updated>2019-06-08T18:07:06Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>I made a cooler for the hot summer days out of four old PC fans. I thought I would share it because it looked kind of cool. :)</summary>
+		<content type="html">
+			<p>I made a cooler for the hot summer days out of four old PC fans. I thought I would share it because it looked kind of cool. :)</p>
+			<p>I also added a <a href="https://youtu.be/AYgSoLQOLzA" target="_blank">YouTube video mirror</a>.</p>
+			<p>
+				<video controls="" preload="auto">
+				  <source src="https://download.frederikstroem.com/archives/2019-06-08-cooler.mp4" type="video/mp4" />
+				</video>
+			</p>
+		</content>
+	</entry>
 
 	<entry>
 		<title>I Use A New Public Key</title>
