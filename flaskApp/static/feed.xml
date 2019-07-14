@@ -6,7 +6,30 @@
 	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
 	<link href="https://frederikstroem.com/" />
   <id>https://frederikstroem.com/static/feed.xml</id>
-	<updated>2019-06-11T14:51:53Z</updated>
+	<updated>2019-07-14T15:28:30Z</updated>
+
+	<entry>
+		<title>My laptop stickers</title>
+		<link href="https://frederikstroem.com/journal/laptop-stickers/" />
+		<id>https://frederikstroem.com/journal/laptop-stickers/</id>
+		<published>2019-07-14T15:28:30Z</published>
+		<updated>2019-07-14T15:28:30Z</updated>
+    <author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Laptop stickers.</summary>
+		<content type="html">
+			<p>My laptop stickers.</p>
+			<p>
+				<a href="https://download.frederikstroem.com/archives/2019-07-14-laptop-stickers.jpg" target="_blank">
+					<img
+						src="https://download.frederikstroem.com/archives/2019-07-14-laptop-stickers.jpg"
+						alt="Picture of my laptop stickers."
+					></img>
+				</a>
+			</p>
+		</content>
+	</entry>
 
 	<entry>
 		<title>Igniting hand sanitizer gel in 480 FPS slow motion</title>
