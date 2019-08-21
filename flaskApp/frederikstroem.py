@@ -54,6 +54,13 @@ def curriculumVitae():
     educationList = curriculumVitaeList["education"]
     return render_template('pages/curriculum-vitae.html', workList=workList, educationList=educationList)
 
+@app.route("/donate/")
+def donate():
+    donateList = None
+    with open("donate.json", "r") as f:
+        donateList = json.loads(f.read())
+    return render_template('pages/donate.html', donateList=donateList)
+
 # https://stackoverflow.com/a/14054039 (2019-05-10)
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')

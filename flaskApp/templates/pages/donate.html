@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Donate - {{ super() }}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/donate.min.css') }}?2019_08_07">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  Donate
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <p>I do not necessarily check the wallet balances that often. So if you want to make sure I discover your donation, then you are welcome to send me an e-mail together with your transaction. :)</p>
+  <div id="donateEntries" class="columns is-multiline">
+    {% for donateEntry in donateList %}
+      <div class="column is-full-tablet is-half-desktop is-one-third-fullhd">
+        <h1 class="is-size-5">{{ donateEntry.name }}</h1>
+        <img src="{{ url_for('static', filename=['img/donate-qr-codes/', donateEntry.identifier, '-donate-frederik-stroem.png']|join) }}">
+        <textarea class="textarea" readonly onclick="this.select()">{{ donateEntry.address }}</textarea>
+      </div>
+    {% endfor %}
+  </div>
+  <h1>Addresses PGP signed</h1>
+  <textarea class="textarea" readonly onclick="this.select()">-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Bitcoin: bc1qt9d49p3gz5yfwtyte3v8kr49upllk3t233vs7w
+Ethereum: 0xdf2Cd69FB4DdF7a7A3f4a8FCADf4Df58948CD691
+Monero: 429U6JMXkhs94HmBH8oiJxgTDRZCRtUfVaq2kAPUpmn9P6vC2M8vjiHRVjJsxcacXkhANBeDYognpT4FDq4tDThn682sdVQ
+Litecoin: ltc1qzmf9e5snzd79yh4g6h6y4q39nxm4jl77uprp8h
+Nano: nano_1ojj6pahqweigt1614z9ax1zqc4doig8dbe9tcqq9tqhtgtxsmwfyc3okpe1
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE4ygiPt7zJWadhHRHd3mncusotmsFAl1S9SUACgkQd3mncuso
+tmsSVQ//XA7xshcs1Dt63S6VKNzo/SOgZyoKDPYKSUwGpAWUin+hFSPwYwN50vJw
+DHvRzAWrwb/+Iid55AH+ihLtEApPZR069v/M8QFq5TGWY8pKNda/CzDTmHmW10xZ
+gcaDwe2ujfDLgGBBLza4Ovo/ox4N9RLVZCuggBZSCv8oO7XZi7q+6kSzUSdnMKsW
+msURaYcW9/sUno2Jz8NhS7x+f4ReXXodKBpYb4dM9wligN727ix94n0tNqEefw0u
++hOWNYmNqVmp1glAPB66BTfTnxqWQSScWGzQ+TcKbMtzjb5Lk5VkvtjccuyYvaMA
+iCHOgUotsTZkAhjPlBCHVCx/gZhjxxXckFX3CTAF0AdNYEz6bvE5JU5APDaTtXyo
+pF7DIKJ0CHa+fwuir7XIYvc0bmrGpZq2aL1tWtggNSTQ9GXn9Fmk4qSiGIjjO4mw
+jzTOgw6Gocq5oA+zhyT8WnHYd2qGkMB4H1G9PLJmFRbsYcLulBoMUwkYAZcNoZHA
+A/M1/hTf+ffu1HOaWhpPMjKUhHI/AtHdcY7+0gjb0mo+hl1fueotxsdvfmP1tM05
+r2nfB4HMzvKEF660PgylB58REF6wC2vwcz+a+2UXu4skoJgHE8ZHn/0MHMZUTp5L
+YsRbEDNBq+3/Mu1kVgqa5b1txbxJQQLhEP6fngbndebLoL4TZ68=
+=mpxo
+-----END PGP SIGNATURE-----</textarea>
+{% endblock %}

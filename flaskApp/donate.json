@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Bitcoin",
+    "identifier": "bitcoin",
+    "address": "bc1qt9d49p3gz5yfwtyte3v8kr49upllk3t233vs7w"
+  },
+  {
+    "name": "Ethereum",
+    "identifier": "ethereum",
+    "address": "0xdf2Cd69FB4DdF7a7A3f4a8FCADf4Df58948CD691"
+  },
+  {
+    "name": "Monero",
+    "identifier": "monero",
+    "address": "429U6JMXkhs94HmBH8oiJxgTDRZCRtUfVaq2kAPUpmn9P6vC2M8vjiHRVjJsxcacXkhANBeDYognpT4FDq4tDThn682sdVQ"
+  },
+  {
+    "name": "Litecoin",
+    "identifier": "litecoin",
+    "address": "ltc1qzmf9e5snzd79yh4g6h6y4q39nxm4jl77uprp8h"
+  },
+  {
+    "name": "Nano",
+    "identifier": "nano",
+    "address": "nano_1ojj6pahqweigt1614z9ax1zqc4doig8dbe9tcqq9tqhtgtxsmwfyc3okpe1"
+  }
+]
