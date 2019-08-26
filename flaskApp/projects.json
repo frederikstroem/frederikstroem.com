@@ -28,5 +28,11 @@
     "description": "Some Factorio blueprints for you to enjoy.",
     "projectLink": "https://github.com/frederikstroem/factorio-blueprints/blob/master/README.md",
     "projectSourceLink": "https://github.com/frederikstroem/factorio-blueprints"
+  },
+  {
+    "title": "Sober October Countdown",
+    "description": "Sober October countdown designed to help motivate and spread awareness",
+    "projectLink": "https://frederikstroem.github.io/sober-october-countdown/",
+    "projectSourceLink": "https://github.com/frederikstroem/sober-october-countdown"
   }
 ]
