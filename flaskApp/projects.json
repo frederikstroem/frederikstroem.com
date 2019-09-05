@@ -34,5 +34,11 @@
     "description": "Sober October countdown designed to help motivate and spread awareness.",
     "projectLink": "https://soberoctobercountdown.com/",
     "projectSourceLink": "https://github.com/frederikstroem/sober-october-countdown"
+  },
+  {
+    "title": "genbrugnu.dk",
+    "description": "genbrug.dk is meant to help danes properly and easily recycle.",
+    "projectLink": "https://genbrugnu.dk/",
+    "projectSourceLink": "https://github.com/frederikstroem/genbrugnu.dk"
   }
 ]
