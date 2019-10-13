@@ -1,13 +1,15 @@
 from flask import Flask
 from flask import render_template, url_for, request, send_from_directory, redirect
 import json
+import os
 from journal import Journal
 
 app = Flask(__name__)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 31536000
 journalHandler = Journal()
 
-debugMode = False
+# Debug mode active if file exist.
+debugMode = os.path.isfile('./_DEBUG_MODE')
 
 # Force HTTPS. Source: https://stackoverflow.com/a/32238093 (2019-05-26)
 @app.before_request

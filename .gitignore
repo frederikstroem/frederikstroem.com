@@ -1,6 +1,7 @@
 # CUSTOM EDITS
 passenger_wsgi.py
 /flaskApp/public
+/flaskApp/_DEBUG_MODE
 # END CUSTOM EDITS
 
 
