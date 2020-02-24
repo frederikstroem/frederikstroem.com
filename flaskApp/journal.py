@@ -4,7 +4,7 @@ import math
 class Journal():
     def __init__(self):
         self.feedPath = "static/feed.xml"
-        self.postsPerPage = 4
+        self.postsPerPage = 5
 
     def getFeed(self):
         return feedparser.parse(self.feedPath)

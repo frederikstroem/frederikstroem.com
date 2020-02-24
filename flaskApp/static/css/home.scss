@@ -1,3 +1,11 @@
+@import "colors.scss";
+
+#lastMastodonFetch {
+  color: $base05;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
 #latestJournalPosts {
   h1 {
     font-weight: bold;
@@ -15,6 +23,7 @@
 }
 
 #mainColumn {
+  overflow-wrap: break-word;
   img {
     margin-top: 10px !important;
     @media (min-width: 769px) {
@@ -26,4 +35,11 @@
       padding-bottom: 0px !important;
     }
   }
+}
+
+.date {
+  display: block;
+  margin: 0 0 10px 0;
+  color: $base05;
+  font-size: 12px;
 }

@@ -24,9 +24,16 @@ def before_request():
 
 @app.route("/")
 def home():
-    latestPosts = journalHandler.getLatestPosts()[:2]
+    latestPosts = journalHandler.getLatestPosts()
 
-    return render_template('pages/home.html', latestPosts=latestPosts)
+    latestMastodonToots = {"dataFetchedTime": "N/A"}
+    try:
+        with open('latestMastodonToots.json') as f:
+            latestMastodonToots = json.load(f)
+    except Exception as e:
+        pass
+
+    return render_template('pages/home.html', latestPosts=latestPosts, latestMastodonToots=latestMastodonToots)
 
 @app.route("/journal/")
 def journal():

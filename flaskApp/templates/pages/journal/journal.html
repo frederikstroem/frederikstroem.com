@@ -20,11 +20,12 @@
       <a href="{{ post.link }}">
         <h1 class="is-size-3">{{ post.title }}</h1>
         <p class="summary">{{ post.summary|safe }}</p>
-        {% if post.published == post.updated %}
-          <p class="published"><span title="Published {{ post.published }}">{{ post.published }}</span></p>
-        {% else %}
-          <p class="published is-size-6"><span title="Published {{ post.published }}">{{ post.published }}</span> <span title="Updated {{ post.updated }}">({{ post.updated }})</span></p>
-        {% endif %}
+        <p class="published">
+          <span title="Published {{ post.published }}">{{ post.published }}</span>
+          {% if post.published != post.updated %}
+            <span title="Updated {{ post.updated }}">({{ post.updated }})</span>
+          {% endif %}
+        </p>
       </a>
     {% endfor %}
   </div>

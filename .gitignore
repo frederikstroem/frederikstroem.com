@@ -2,6 +2,7 @@
 passenger_wsgi.py
 /flaskApp/public
 /flaskApp/_DEBUG_MODE
+/flaskApp/latestMastodonToots.json
 # END CUSTOM EDITS
 
 

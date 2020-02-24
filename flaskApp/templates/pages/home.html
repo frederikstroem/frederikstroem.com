@@ -6,21 +6,40 @@
 {% endblock %}
 
 {% block mainColumn %}
-  <div class="columns">
-    <div class="column is-one-third-widescreen has-text-centered">
+  <div class="columns is-multiline">
+
+    <div class="column is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
       <img id="homepagePicture" src="{{ url_for('static', filename='img/identicon.svg') }}" alt="">
     </div>
-    <div class="column">
+
+    <div class="column is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
       <h1 class="is-size-4">Latest journal posts</h1>
       <div id="latestJournalPosts">
         {% for post in latestPosts %}
           <a href="{{ post.link }}">
             <h1>{{ post.title }}</h1>
-            <p>{{ post.summary|safe }}</p>
+            <p>
+              {{ post.summary|safe }}
+              <span class="date">{{ post.updated }}</span>
+            </p>
           </a>
         {% endfor %}
       </div>
     </div>
+
+    <div class="column is-full-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
+      <h1 class="is-size-4">Latest Mastodon toots</h1>
+      <p id="lastMastodonFetch">Updated: {{ latestMastodonToots.dataFetchedTime }}</p>
+      <div id="latestMastodonToots">
+        {% for toot in latestMastodonToots.data %}
+          <a href="{{ toot.url }}" target="_blank">
+            {{ toot.content|safe }}
+            <span class="date">{{ toot.date }}</span>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
 {% endblock %}
 
