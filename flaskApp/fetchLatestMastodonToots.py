@@ -1,6 +1,7 @@
 # A DreamHost cron job will run this every 10 minutes, (because that is the lowest interval xD).
 # The output is saved to /flaskApp/latestMastodonToots.json.
 
+import os
 import json
 import requests
 import re
@@ -10,7 +11,7 @@ accountId = 802809
 limitDataCount = 5
 apiPath = "/api/v1/accounts/{}/statuses?limit={}".format(accountId, limitDataCount)
 mastodonInstance = "https://mastodon.social"
-exportPath = "latestMastodonToots.json"
+exportPath = os.path.dirname(os.path.realpath(__file__)) + "/latestMastodonToots.json"  # Source: https://stackoverflow.com/a/9350788 (2020-02-24).
 
 response = requests.get(mastodonInstance + apiPath)
 if response.status_code == 200:
