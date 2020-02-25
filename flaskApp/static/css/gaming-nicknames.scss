@@ -1,0 +1,13 @@
+#gamingNicknames {
+  font-size: 20px;
+  span {
+    &:not(:last-child) {
+      margin-bottom: 2px;
+    }
+    display: block;
+    i {
+      margin-right: 10px;
+    }
+  }
+  margin-bottom: 10px;
+}

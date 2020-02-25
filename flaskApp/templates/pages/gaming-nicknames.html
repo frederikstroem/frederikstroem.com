@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Gaming nicknames - {{ super() }}
+{% endblock %}
+
+{% block head %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/gaming-nicknames.min.css') }}">
+{% endblock %}
+
+{% block mainColumnTitle %}
+  Gaming nicknames
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <div id="gamingNicknames">
+    <span><i class="fab fa-steam fa-fw"></i><b>Steam:</b> <a href="https://steamcommunity.com/id/katofln" target="_blank">Katofln</a></span>
+    <span><i class="fab fa-battle-net fa-fw"></i><b>Blizzard Battle.net:</b> Katofln#2441</span>
+    <span><i class="fas fa-gamepad fa-fw"></i><b>League of Legends (EU West):</b> Katofln</span>
+    <span><i class="fab fa-discord fa-fw"></i><b>Discord:</b> Katofln#4379</span>
+  </div>
+{% endblock %}
