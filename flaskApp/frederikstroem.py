@@ -2,6 +2,7 @@ from flask import Flask
 from flask import render_template, url_for, request, send_from_directory, redirect
 import json
 import os
+from flask_cachebuster_2019_12_10 import CacheBuster
 from journal import Journal
 
 app = Flask(__name__)
@@ -21,6 +22,13 @@ def before_request():
             url = request.url.replace('http://', 'https://', 1)
             code = 301
             return redirect(url, code=code)
+
+# Cache busting.
+cacheBustingConfig = {
+    'extensions': ['.js', '.css'], 'hash_size': 5
+}
+cache_buster = CacheBuster(config=cacheBustingConfig)
+cache_buster.init_app(app)
 
 @app.route("/")
 def home():
