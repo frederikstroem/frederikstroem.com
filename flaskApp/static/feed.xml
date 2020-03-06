@@ -6,7 +6,46 @@
 	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
 	<link href="https://frederikstroem.com/" />
   <id>https://frederikstroem.com/static/feed.xml</id>
-	<updated>2020-02-24T00:00:00Z</updated>
+	<updated>2020-03-06T00:00:00Z</updated>
+
+	<entry>
+	  <title>Changed PGP key</title>
+	  <link href="https://frederikstroem.com/journal/changed-pgp-key/" />
+	  <id>https://frederikstroem.com/journal/changed-pgp-key/</id>
+	  <published>2020-03-06T00:00:00Z</published>
+	  <updated>2020-03-06T00:00:00Z</updated>
+	  <author>
+	    <name>Frederik Holm Strøm</name>
+	  </author>
+	  <summary>Changed PGP key.</summary>
+	  <content type="html">
+			<p>
+				New key can be found <a target="_blank" href="https://download.frederikstroem.com/pgp-keys/8F70CDF9.asc">here</a>, or on a <a target="_blank" href="https://keys.openpgp.org/search?q=F051FFE4010FB77822846073886FCB5D8F70CDF9">keyserver</a>(<a target="_blank" href="http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/search?q=F051FFE4010FB77822846073886FCB5D8F70CDF9">Tor</a>). 😊
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+Switching to a new key F051 FFE4 010F B778 2284  6073 886F CB5D 8F70 CDF9. I have signed the new key and this message with my old key.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEECWskUK4OvrbaZuV41rnxl7nh3DYFAl5dfiYACgkQ1rnxl7nh
+3Db3jA//YGDxy2+g2DIZNYQGXFOUL1+GzisDrvDj8X0LkJVENhbbHeB2JS0W9pVe
+8CWqb5vgUVZo1BSPWoNCo4w+Am/N9JCNeS5VDveLuE1hajOPL0DvXbsPoS6sOGxF
+0THlupQ3HjpDuZlpnPdgfA4Y3+4XdfkLbOQBrsxI5ULC6Df7dhjOUWWMcalGc/UB
+HpnGYqZbfiTosubABZmvoz3SzHDEigDAinO5crWfWg8wYyCuWNdGoGwp08XDzJsI
+R5aBIQfyVEOanw5GqydwgB0xA/bO8i73BYy5frXX/zaVFTWe7SgOqoUaFxTpx7x+
+oNNtAimWrLQAnoZ7ZmVFSmoesp8AVFPROywYXJ27rloox7RDuUjuD4e+zAwAr3kk
+uZXp7hPneX38oMxgd+YO6rGwAahr9gUFA26rgAwhpTzQSYeZwZYbWGQrOtP81b0x
+WIacYTaK5jkhQN2VAsh7GFZVJ4rFj+iOxGyZV7OlW8FC03ovP2kDRP4v33rXUADg
+kACY/nJR4uYQR8hJyVk6/vufToKWyT61vgcxT60mD3Kq2+bBWt+gQ6SHUa78OMYl
+EOln34Q3cnRjP9ickDgozLl5dS9K1BJH4I7xCfJ/ZBBW/uf7O2brgT7zpyqaxpGa
+UyxRTmhqwxV3ir5A52EVGR/cd7p+7Szyj7nb3b1bIuNjfdKO04g=
+=/lpF
+-----END PGP SIGNATURE-----</code></pre>
+			</p>
+		</content>
+	</entry>
 
 	<entry>
 	  <title>The 3rd photo drop</title>
