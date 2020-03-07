@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  PGP key - {{ super() }}
+{% endblock %}
+
+{% block mainColumnTitle %}
+  PGP key
+{% endblock %}
+
+{% block mainColumn %}
+  {{ super() }}
+  <b>Key ID:</b> 0x886FCB5D8F70CDF9<br>
+  <b>Fingerprint:</b> F051 FFE4 010F B778 2284&nbsp; 6073 886F CB5D 8F70 CDF9<br>
+  <h1 class="is-size-4" style="margin-top: 10px;">Download PGP key</h1>
+  <a target="_blank" href="https://download.frederikstroem.com/pgp-keys/8F70CDF9.asc">8F70CDF9.asc</a><br>
+
+  <a target="_blank" href="https://keys.openpgp.org/search?q=F051FFE4010FB77822846073886FCB5D8F70CDF9">keys.openpgp.org</a> (<a target="_blank" href="http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/search?q=F051FFE4010FB77822846073886FCB5D8F70CDF9">.onion/Tor</a>)<br>
+
+  <a target="_blank" href="https://keybase.io/frederikstroem/pgp_keys.asc">Keybase</a> (<a target="_blank" href="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/frederikstroem/pgp_keys.asc">.onion/Tor</a>)<br>
+
+  <a target="_blank" href="https://pgp.mit.edu/pks/lookup?search=0xF051FFE4010FB77822846073886FCB5D8F70CDF9&op=index&fingerprint=on">pgp.mit.edu</a><br>
+
+  <a target="_blank" href="https://keyserver.ubuntu.com/pks/lookup?search=0xF051FFE4010FB77822846073886FCB5D8F70CDF9&fingerprint=on&hash=on&exact=on&op=vindex">keyserver.ubuntu.com</a>
+
+{% endblock %}

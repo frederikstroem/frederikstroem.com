@@ -82,6 +82,10 @@ def donate():
 def gamingNicknames():
     return render_template('pages/gaming-nicknames.html')
 
+@app.route("/pgp/")
+def pgp():
+    return render_template('pages/pgp.html')
+
 # https://stackoverflow.com/a/14054039 (2019-05-10)
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
