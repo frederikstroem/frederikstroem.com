@@ -7,10 +7,10 @@ import requests
 import re
 from time import gmtime, strftime
 
-accountId = 802809
+accountId = 217763
 limitDataCount = 5
 apiPath = "/api/v1/accounts/{}/statuses?limit={}".format(accountId, limitDataCount)
-mastodonInstance = "https://mastodon.social"
+mastodonInstance = "https://fosstodon.org"
 exportPath = os.path.dirname(os.path.realpath(__file__)) + "/latestMastodonToots.json"  # Source: https://stackoverflow.com/a/9350788 (2020-02-24).
 
 response = requests.get(mastodonInstance + apiPath)
