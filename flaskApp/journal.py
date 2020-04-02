@@ -53,6 +53,7 @@ class Journal():
                     "title": feed["entries"][i]["title"],
                     "published": feed["entries"][i]["published"],
                     "updated": feed["entries"][i]["updated"],
+                    "summary": feed["entries"][i]["summary"],
                     "content": feed["entries"][i]["content"][0]['value'].replace("</br>", "")   # This fixes a parsing problem, probably not the best soulution though...
                 }
 

@@ -4,6 +4,7 @@
     {% block head %}
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="{% block summary %}Software Engineering student at The University of Southern Denmark.{% endblock %}">
       <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='favicon/favicon.png') }}">
       <link rel="shortcut icon" href="{{ url_for('static', filename='favicon/favicon.ico') }}">
       <link rel="stylesheet" href="{{ url_for('static', filename='fontawesome-5.12.0/css/all.min.css') }}">
@@ -56,7 +57,7 @@
             <div id="rightColumn" class="column">
               {% block rightColumn %}
                 <p>
-                  My name is Frederik Holm Strøm, I am a Software Engineering student at University of Southern Denmark. I spend most of my time <a href="https://en.wikipedia.org/wiki/Hacker_culture" target="_blank">hacking</a>, working and studying.
+                  My name is Frederik Holm Strøm, I am a Software Engineering student at The University of Southern Denmark. I spend most of my time <a href="https://en.wikipedia.org/wiki/Hacker_culture" target="_blank">hacking</a>, working and studying.
                 </p>
                 <div class="is-divider"></div>
                 <div id="socialLinks" class="columns is-gapless is-mobile has-text-centered">
@@ -69,7 +70,7 @@
                   <div class="column" title="Keybase">
                     <a href="https://keybase.io/frederikstroem" target="_blank"><i class="fab fa-keybase"></i></a>
                   </div>
-                  <div class="column" title="Blog RSS feed">
+                  <div class="column" title="RSS feed">
                     <a href="/feed.xml" target="_blank"><i class="fas fa-rss"></i></a>
                   </div>
                   <div class="column" title="GitHub">
