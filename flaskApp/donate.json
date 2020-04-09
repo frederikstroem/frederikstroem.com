@@ -7,26 +7,31 @@
   {
     "name": "Bitcoin (SegWit)",
     "identifier": "bitcoin-segwit",
-    "address": "bc1qt9d49p3gz5yfwtyte3v8kr49upllk3t233vs7w"
+    "address": "bc1q33qap36zs2mg46e84n4rdc9pf7thggsufqghak"
   },
   {
     "name": "Monero",
     "identifier": "monero",
-    "address": "429U6JMXkhs94HmBH8oiJxgTDRZCRtUfVaq2kAPUpmn9P6vC2M8vjiHRVjJsxcacXkhANBeDYognpT4FDq4tDThn682sdVQ"
+    "address": "89nE5g1LVJcJ52WECyjdAxejUhri6Dy88D2mHL6GK9Um5mETWHTVRxA3Xj9g9DLRYWHL6swFXtNKpHDznjhki3SBBJZNuSr"
   },
   {
     "name": "Ethereum",
     "identifier": "ethereum",
-    "address": "0xdf2Cd69FB4DdF7a7A3f4a8FCADf4Df58948CD691"
+    "address": "0x2cf6A24F3269F3942Dc08Ca4EB8bb0C888802f8F"
   },
   {
     "name": "Litecoin",
     "identifier": "litecoin",
-    "address": "ltc1qzmf9e5snzd79yh4g6h6y4q39nxm4jl77uprp8h"
+    "address": "MAhqFRhkTEfSReWpZ4mQdiTNBMfo4zzzP3"
   },
   {
     "name": "Nano",
     "identifier": "nano",
     "address": "nano_1ojj6pahqweigt1614z9ax1zqc4doig8dbe9tcqq9tqhtgtxsmwfyc3okpe1"
+  },
+  {
+    "name": "Dogecoin",
+    "identifier": "dogecoin",
+    "address": "DH89esKFDmA3GH2jDTwntUrwjVmyzN9hdB"
   }
 ]
