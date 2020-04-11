@@ -34,7 +34,7 @@
         {% for toot in latestMastodonToots.data %}
           <a href="{{ toot.url }}" target="_blank">
             {{ toot.content|safe }}
-            <span class="date">{{ toot.date }}</span>
+            <span class="date">{{ toot.date }}{% if toot.mediaAttached == true %} | <i>Toot contains media</i>{% endif %}</span>
           </a>
         {% endfor %}
       </div>
