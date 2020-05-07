@@ -6,7 +6,45 @@
 	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
 	<link href="https://frederikstroem.com/" />
   <id>https://frederikstroem.com/static/feed.xml</id>
-	<updated>2020-03-06T00:00:00Z</updated>
+	<updated>2020-05-07T00:00:00Z</updated>
+
+	<entry>
+		<title>Changed PGP key again...</title>
+		<link href="https://frederikstroem.com/journal/changed-pgp-key-again/" />
+	  <id>https://frederikstroem.com/journal/changed-pgp-key-again/</id>
+		<published>2020-05-07T00:00:00Z</published>
+		<updated>2020-05-07T00:00:00Z</updated>
+		<author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>Changed PGP key again.</summary>
+		<content type="html">
+			<p>
+				New key can be found <a target="_blank" href="https://download.frederikstroem.com/pgp-keys/92BB0C69.asc">here</a>, or on a <a target="_blank" href="https://keys.openpgp.org/search?q=2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69">keyserver</a>(<a target="_blank" href="http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/search?q=2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69">Tor</a>). 😊
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Switching to a new key 2C2B FB7D F2FE 6B5E 3C5D  4D56 DA3D C29B 92BB 0C69. I have signed the new key and this message with my old key.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6ctWHS9ELxS4+/RXtDYaofaeXSkFAl6zyXMACgkQtDYaofae
+XSk68g//drwtgf10RNjOKFBZ9u8Lr1dt5XeMnT6GnV5kA83LFoVCthXF0fzsOIWt
+YQeKsRqgM9bhhIHyYnaBSr5VTtyWoubS0hY3wFJQ59k4bpUQyhJKJAVsDDBXhGFx
+9T3ejJwg9mWGHY04bxf3oGnqlbb2q55qpHEKKvBP1FojqvzgqiJ055N5iCHOzsSE
+GqTUm/6YECo6X4Bhd85CM+Rj//6k+Gqp2zpRJAuV5jkOIflSNOUaQmQZMxPEQozZ
+d10PuTxccIO2QsScRCSnz9CNmaxVVJDPS2ALggi9Lk+gO69BU9mB0UXn5uTjhSQp
+i/zkXaFAQxzaetqqPe3MqNKQzG5KQqE577UtirXw2+xR3+DlyedRC8fZeCL2qp04
+pZdMiVWErOjkl+EEq6DS/xH5gxWPWJjFBR4YyrCZAUOQkqSYn0nCdA6vXdpEIgK1
+MvtH9MB2HPvJY7VZ3/6ygc2fc/RGOivMbvEWZIzCUew8sJB5LOcKx2j1lkDVT6xK
+7k8Hp/Glai8+5cZ5hHrruxepNq2n30W+oZROsOVOr6xEikhuX1BxbWRQCRCdtoRD
+9VgZshBQx6AQK+G+9KuciSl6/9PysZJLDVj/OdtTcDeJKEBP0KTy5D1rGaDfdzc2
+lYYX4Wxy6b5D5OtA2jcSpWLT4ug3rKMViiITPCKxRfVv7RCDV7M=
+=oWsV
+-----END PGP SIGNATURE-----</code></pre>
+			</p>
+		</content>
+	</entry>
 
 	<entry>
 	  <title>Changed PGP key</title>
