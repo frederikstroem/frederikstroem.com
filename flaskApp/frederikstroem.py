@@ -84,13 +84,16 @@ def gamingNicknames():
 
 @app.route("/pgp/")
 def pgp():
-    return render_template('pages/pgp.html')
+    return redirect("/contact/", 301)
+
+@app.route("/contact/")
+def contact():
+    return render_template('pages/contact.html')
 
 # https://stackoverflow.com/a/14054039 (2019-05-10)
 @app.route('/robots.txt')
 @app.route('/sitemap.xml')
 @app.route('/feed.xml')
-@app.route('/keybase.txt')
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 

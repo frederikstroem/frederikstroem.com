@@ -1,26 +1,25 @@
 {% extends "layout.html" %}
 
 {% block title %}
-  PGP key - {{ super() }}
+  Contact - {{ super() }}
 {% endblock %}
 
 {% block mainColumnTitle %}
-  PGP key
+  Contact
 {% endblock %}
 
 {% block mainColumn %}
   {{ super() }}
+  <b>E-mail address:</b> frederikstroem [at] pm [dot] me
+  <h1 class="is-size-4" style="margin-top: 10px;">PGP key</h1>
   <b>Key ID:</b> 0xDA3DC29B92BB0C69<br>
   <b>Fingerprint:</b> 2C2B FB7D F2FE 6B5E 3C5D&nbsp; 4D56 DA3D C29B 92BB 0C69<br>
-  <h1 class="is-size-4" style="margin-top: 10px;">Download PGP key</h1>
+  <h1 class="is-size-5" style="margin-top: 10px;">Download PGP key</h1>
   <a target="_blank" href="https://download.frederikstroem.com/pgp-keys/92BB0C69.asc">92BB0C69.asc</a><br>
 
   <a target="_blank" href="https://keys.openpgp.org/search?q=2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69">keys.openpgp.org</a> (<a target="_blank" href="http://zkaan2xfbuxia2wpf7ofnkbz6r5zdbbvxbunvp5g2iebopbfc4iqmbad.onion/search?q=2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69">.onion/Tor</a>)<br>
 
-  <a target="_blank" href="https://keybase.io/frederikstroem/pgp_keys.asc">Keybase</a> (<a target="_blank" href="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/frederikstroem/pgp_keys.asc">.onion/Tor</a>)<br>
-
   <a target="_blank" href="https://pgp.mit.edu/pks/lookup?search=0x2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69&op=index&fingerprint=on">pgp.mit.edu</a><br>
 
   <a target="_blank" href="https://keyserver.ubuntu.com/pks/lookup?search=0x2C2BFB7DF2FE6B5E3C5D4D56DA3DC29B92BB0C69&fingerprint=on&hash=on&exact=on&op=vindex">keyserver.ubuntu.com</a>
-
 {% endblock %}
