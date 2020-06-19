@@ -6,7 +6,56 @@
 	<link href="https://frederikstroem.com/static/feed.xml" rel="self" />
 	<link href="https://frederikstroem.com/" />
   <id>https://frederikstroem.com/static/feed.xml</id>
-	<updated>2020-05-07T00:00:00Z</updated>
+	<updated>2020-06-19T00:00:00Z</updated>
+
+	<entry>
+		<title>Disclosing my previous donations, and I will continue to do so going forward</title>
+		<link href="https://frederikstroem.com/journal/disclosing-my-previous-donations/" />
+		<id>https://frederikstroem.com/journal/disclosing-my-previous-donations/</id>
+		<published>2020-06-19T00:00:00Z</published>
+		<updated>2020-06-19T00:00:00Z</updated>
+		<author>
+			<name>Frederik Holm Strøm</name>
+		</author>
+		<summary>I have done so to increase transparency.</summary>
+		<content type="html">
+			<p>
+				I have chosen to disclose my previous donations to the public, and I will continue to disclose them going forward. My reasoning for this choice is simply to increase transparency, which in my opinion is a now lacking, but yet super important part of a bright future.
+			</p>
+			<h1>PGP signed summary of transactions</h1>
+			<p>
+<pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+#TeamTrees
+Date: 2019-10-29
+Amount: 5 USD
+Display name: Frederik Holm Strøm
+
+The Internet Archive
+Date: 2020-04-05
+Amount: 0.000215 BTC
+Hash: 6fb5fbd4bcdd99bd6130d02d21ebd262d996fde06b2da9b7479c31cb6a91eb20
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6ctWHS9ELxS4+/RXtDYaofaeXSkFAl7tGpEACgkQtDYaofae
+XSn8aw//ZfLl8ekgcNtjXNirO4pi1O/hAFDZd3No4em7VzNP0QsPezy3rk1JqNea
+nqQ/hB2D1dHGMRYzyNgZpelNrQj9FSYnyk1f55SDVMR0Y6KvaYI2WN/4XVLiAc1/
+9Abm6Qw5Nj5fDEYpQbdM0ZKYhvwba8AMo+BhqjVAZrJMXnDuA/sfxQnhbRqbE8yG
+gzuwUbAIsC3U9o3KW98cCmzkyZNnJP5WSgqQNisUIOJAqjL7kMV6y0ba0FVUFsw2
+In9zzyQ/BNjASmOIEFPceuDHtnmmocU2nbFdn5zi8W1usymYWvwVpWli0bfCX1t1
+31SsFSZgipIBxU6bAcK2LCYWofAZr/h2Mxvzp1weCSnFqCZIAIRWTao8d3dZNGYu
+30wKWZHDAtckS7Xe3JtAAP4PQC51oUcGQ0KcT+bwLz1shaSI7PcfLa1ZqrN5QyKl
+hFgNAvyGZi/xjrhrR3WRkzaH9IPUm9AbH7+Twn9X1JZjWEcHzz/WjgYHmYB38DjA
+iUsKKTJTQUeFFKpGojRpRtL92OI3iQ97fL+ulnFeZG41twzqFLktmoe+UDpwD+Iz
+MW0wfSNZrZK5DqgWXO6NCVVsURDfBriEfKleOp1ZtpN5UuvD9k91pRidP2rbUY2M
+zrWSnAcoo7HKnYOUIXUpkASfqSPFUtjolT40KqRD1h7ib20dKMw=
+=YCQo
+-----END PGP SIGNATURE-----</code></pre>
+			</p>
+		</content>
+	</entry>
 
 	<entry>
 		<title>Changed PGP key again...</title>
