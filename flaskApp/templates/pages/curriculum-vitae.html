@@ -25,6 +25,9 @@
           </div>
           <div class="column is-three-quarters-fullhd is-three-quarters-widescreen is-two-thirds-desktop is-two-thirds-tablet is-two-thirds-mobile">
             <b>{{ entry.name }}</b><br>
+            {% if entry.nameSub %}
+              <span class="nameSub">{{ entry.nameSub }}</span><br>
+            {% endif %}
             {% if entry.jobTitle %}
               <b>Job title:</b> {{ entry.jobTitle }}<br>
             {% endif %}
