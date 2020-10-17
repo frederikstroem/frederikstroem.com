@@ -93,6 +93,10 @@ footer {
   }
 }
 
+#personalDescription :not(:last-child) {
+  margin-bottom: 5px;
+}
+
 @media (max-width: 1087px) {
   #navMenu {
     background-color: inherit;
