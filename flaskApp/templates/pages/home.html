@@ -47,12 +47,8 @@
   {{ super() }}
   <script type="text/javascript">
     window.onload = function () {
-      // Source: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript (2019-06-06).
-      var downloadingImage = new Image();
-      downloadingImage.onload = function(){
-        document.getElementById("homepagePicture").src = this.src;
-      };
-      downloadingImage.src = "{{ url_for('static', filename='img/hmmm_perfect.gif') }}";
+      // Originally inspired from: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript (2019-06-06).
+      document.getElementById("homepagePicture").outerHTML = '<video autoplay loop muted playsinline><source src="{{ url_for("static", filename="img/hmmm_perfect.webm") }}" type="video/webm"><source src="{{ url_for("static", filename="img/hmmm_perfect.mp4") }}" type="video/mp4"></video>'
     }
   </script>
 {% endblock %}
