@@ -8,11 +8,7 @@
 {% block mainColumn %}
   <div class="columns is-multiline">
 
-    <div class="column is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
-      <img id="homepagePicture" src="{{ url_for('static', filename='img/identicon.svg') }}" alt="">
-    </div>
-
-    <div class="column is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
+    <div class="column is-half">
       <h1 class="is-size-4">Latest journal posts</h1>
       <div id="latestJournalPosts">
         {% for post in latestPosts %}
@@ -27,7 +23,7 @@
       </div>
     </div>
 
-    <div class="column is-full-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
+    <div class="column is-half">
       <h1 class="is-size-4">Latest Mastodon toots</h1>
       <p id="lastMastodonFetch">Updated: {{ latestMastodonToots.dataFetchedTime }}</p>
       <div id="latestMastodonToots">
@@ -41,14 +37,4 @@
     </div>
 
   </div>
-{% endblock %}
-
-{% block scripts %}
-  {{ super() }}
-  <script type="text/javascript">
-    window.onload = function () {
-      // Originally inspired from: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript (2019-06-06).
-      document.getElementById("homepagePicture").outerHTML = '<img src="{{ url_for("static", filename="img/Frederik_Holm_Stroem_2021_03_31_compressed.jpg") }}" alt="Frederik Holm Strøm (2021-03-31)">'
-    }
-  </script>
 {% endblock %}

@@ -53,12 +53,15 @@
         <div class="container is-desktop">
           <div class="columns">
             <div id="mainColumn" class="column is-two-thirds is-three-quarters-widescreen">
-              {% block mainColumn %}
-                <h1 class="is-size-2">{% block mainColumnTitle %}Title{% endblock %}</h1>
-              {% endblock %}
+              <div id="mainColumnInner">
+                {% block mainColumn %}
+                  <h1 class="is-size-2">{% block mainColumnTitle %}Title{% endblock %}</h1>
+                {% endblock %}
+              </div>
             </div>
             <div id="rightColumn" class="column">
               {% block rightColumn %}
+              <img src="{{ url_for('static', filename='img/Frederik_Holm_Stroem_2021_03_31_compressed.jpg') }}" alt="Frederik Holm Strøm (2021-03-31)">
                 <div id="personalDescription">
                   <p>
                     My name is Frederik Holm Strøm, I am a Software Engineering student at The University of Southern Denmark. I spend most of my time <a href="https://en.wikipedia.org/wiki/Hacker_culture" target="_blank">hacking</a>, working and studying.

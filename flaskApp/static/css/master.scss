@@ -74,16 +74,21 @@ footer {
 }
 
 #mainColumn {
-  background-color: $base01;
-  @media (max-width: 1087px) {
-    padding-left: 25px;
-  }
-  @media (max-width: 768px) {
-    padding-right: 25px;
+  padding: 0;
+  #mainColumnInner {
+    background-color: $base01;
+    padding: 12px;
+    @media (max-width: 1087px) {
+      padding-left: 25px;
+    }
+    @media (max-width: 768px) {
+      padding-right: 25px;
+    }
   }
 }
 
 #rightColumn {
+  padding-top: 0;
   @media (max-width: 1087px) {
     margin-right: 10px;
   }
@@ -91,6 +96,10 @@ footer {
   @media (max-width: 769px) {
     margin-left: 10px;
   }
+}
+
+#personalDescription {
+  margin-top: 10px;
 }
 
 #personalDescription :not(:last-child) {
