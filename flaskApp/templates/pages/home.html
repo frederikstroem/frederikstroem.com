@@ -48,7 +48,7 @@
   <script type="text/javascript">
     window.onload = function () {
       // Originally inspired from: https://blog.teamtreehouse.com/learn-asynchronous-image-loading-javascript (2019-06-06).
-      document.getElementById("homepagePicture").outerHTML = '<video autoplay loop muted playsinline><source src="{{ url_for("static", filename="img/hmmm_perfect.webm") }}" type="video/webm"><source src="{{ url_for("static", filename="img/hmmm_perfect.mp4") }}" type="video/mp4"></video>'
+      document.getElementById("homepagePicture").outerHTML = '<img src="{{ url_for("static", filename="img/Frederik_Holm_Stroem_2021_03_31_compressed.jpg") }}" alt="Frederik Holm Strøm (2021-03-31)">'
     }
   </script>
 {% endblock %}
